@@ -1,7 +1,6 @@
 
+ $(document).ready(function () {
 
- $(document).ready(function () {     
-    
     $(document).on('click', '.accordion-header_2', function(event) {
     	 $(".accordion-body_2").css("display", "block");
     	 $(".accordion-body_1").css("display", "none");
@@ -32,4 +31,4 @@
     	  $(".accordion-header_1").css("background-color", "#40312a");
     	 return false;
     });
-});
+});     

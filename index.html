@@ -13,6 +13,9 @@
 <body>
 	<section class="header">
 		<div class="wrapper">
+			<div class="menu">
+
+
 			<p class="logo">sitename</p>
 			<div class="icons">
 				<div><a href=""><img src="image/digg.png" alt=""></a></div>
@@ -21,10 +24,12 @@
 				<div><a href=""><img src="image/viber4.png" alt=""></a></div>
 			</div>
 		</div>
+	</div>
 	</section>
 	<section class="navigation">
 		<div class="wrapper">
-			<ul>
+			<div class="main">
+			<ul class="nav-sp">
 				<li>home</li>
 				<li>about</li>
 				<li>portfolio</li>
@@ -85,30 +90,35 @@
  				 </div>
 
  				 <div class="col-md-5">
- 				 	<div class="bar-link">
- 				 		<ul class="accorion">
- 				 			<li><div class=" accordion-header accordion-header_f"><a class="accordion-header_1" href="">Comments</a></div>
-
- 				 			</li>
- 				 			<li><div class=" accordion-header"><a class="accordion-header_2" href="">Categories</a></div>
-
- 				 			</li>
- 				 			<li><div class="accordion-header"><a class="accordion-header_3" href="">Arhives</a></div>
-
- 				 			</li>
- 				 		</ul>
-
- 				<div class="accordion-text">
- 				 		<div class="accordion-body accordion-body_1">Мой вес: 78кг
-
- 				 			<div class="accordion-body accordion-body_dop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, laboriosam.</div>
- 				 		</div>
-						<div class="accordion-body accordion-body_2">Я люблю черепах и историю
-						</div>
-						<div class="accordion-body accordion-body_3">Мой рост: 187см
-						</div>
- 				 </div>
- 				</div>
+					<section class="ac-container">
+					 <div>
+			         <input id="ac-1" name="accordion-1" type="checkbox" checked />
+			         <label for="ac-1">О нас</label>
+			         <article>
+			             <p>Какой нибудь замечательный текст... </p>
+			         </article>
+			     </div>
+			     <div>
+			         <input id="ac-2" name="accordion-1" type="checkbox" />
+			         <label for="ac-2">Услуги</label>
+			         <article>
+			             <p>Какой нибудь замечательный текст...</p>
+			         </article>
+			     </div>
+			     <div>
+			         <input id="ac-3" name="accordion-1" type="checkbox" />
+			         <label for="ac-3">Портфолио</label>
+			         <article>
+			             <p>Какой нибудь замечательный текст...</p>
+			         </article>
+			     </div>
+			     <div>
+			         <input id="ac-4" name="accordion-1" type="checkbox" />
+			         <label for="ac-4">Контакты</label>
+			         <article>
+			             <p>Какой нибудь замечательный текст...</p>
+			         </article>
+			     </div>
  				<div class="bar-link-int">
  				 	<h3>who we are</h3>
  				 	<div class="img-bl"><img src="image/rabbit.jpg" alt="обезьяна"></div>
@@ -120,8 +130,12 @@
  				 <div class="brend">
  				 	<div class="brend_1"><img src="image/adidas.png" alt=""></div>
  				 	<div class="brend_2"><img src="image/nike.png" alt=""></div>
- 				 </div>
-			</div>
+
+				 </div>
+			    	 <div class="btn-dop">
+					       <a class="battom" href="#">the blog</a>
+				     </div>
+   </div>
 
 	</section>
 	<section>
@@ -187,6 +201,8 @@
 						</div>
 				 </div>
 		</footer>
+
+
  <script src="script.js"></script>
    <script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
 </body>

@@ -81,17 +81,26 @@ p {
 		font-style: normal;
 		font-weight: normal;
 }
-.wrapper_1 {
+
+.menu {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	width: 960px;
 }
 
-.wrapper_1 ul  {
+.main {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 960px;
+}
+
+.nav-sp {
      margin-top: 22px;
 
 }
- .wrapper_1 ul > li {
+ .nav-sp > li {
 	display: inline-block;
 	list-style-type: none;
 	font-size: 16px;
@@ -105,18 +114,16 @@ p {
 }
 
 
-.wrapper_1	ul > li:hover {
+.nav-sp > li:hover {
 	  	  color: #2c8897;
 	   border-bottom: 1px solid #2c8897;
 
 	  }
-.wrapper_1 ul > li:last-child {
+.nav-sp > li:last-child {
 	 margin-right: 0;
 }
 
 form {
-
-	width: 270px;
 	position: relative;
   input {
      background-color: #2c8898;
@@ -129,7 +136,7 @@ form {
   img {
   	 position: absolute;
   	 top: 20px;
-  	 left: 80%;
+  	 left: 91%;
   }
   span {
   	font-family: 'Lato', sans-serif;
@@ -209,7 +216,7 @@ small {
      		padding: 10px 15px 10px 15px;
      		color: #fff;
      		border-radius: 3px;
-     		font-size: 12px;
+     		font-size: 16px;
      		font-family: @Marriweater;
      		text-transform: uppercase;
      		background: linear-gradient(to top, #50413a, #42332c);
@@ -231,7 +238,7 @@ small {
    font-family: 'Verdana' serif;
 }
 
-.col-md-5  {
+.col-md-5  {    /*
    .accorion {
      display: flex;
      justify-content: space-around;
@@ -295,7 +302,7 @@ small {
    	overflow: hidden;
    	background-color: #3095a3;
 
-   }
+   }  */
 
  .bar-link-int {
  	margin: 20px 0 20px 40px;
@@ -332,9 +339,8 @@ small {
 
 
  	.brend_1, .brend_2 {
- 		width: 120px;
+		width: 130px;
 		border: 7px solid yellow;
-		padding-right: 10px;
 
 	img {
 		display: block;
@@ -380,6 +386,7 @@ h3 {
 	background: linear-gradient(to top, #fefcea, #f1da36);
 	font-size: 14px;
 	border-radius: 10px;
+	text-transform: uppercase;
 }
 
 }
@@ -452,4 +459,20 @@ h3 {
 				font-family: @Marriweater;
 			}
 	 }
+ }
+
+
+ .btn-dop {
+ 	text-align: right;
+ }
+
+ .battom {
+ 	display:inline-block;
+ 	padding: 10px 15px;
+ 	font-size: 14px;
+ 	border-radius: 7px;
+	font-family: @Marriweater;
+	text-transform: uppercase;
+	background: linear-gradient(to top, #50413a, #42332c);
+	color: #fff;
  }
